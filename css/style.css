@@ -1,0 +1,876 @@
+/* rulez */
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+.overlay{
+    background: rgba(8, 7, 15, 0.8);
+    height: 100%;
+    width: 100%;
+}
+h2{
+    color: #fff;
+}
+.btn-info{
+    background-color: #188c91 !important;
+}
+.active{
+    color: #188c91 !important;
+}
+.boxi{
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #188c91;
+    border-radius: 15px;
+    -webkit-box-shadow: 7px 4px 7px #082b38cc;
+    -moz-box-shadow: 7px 4px 7px #082b38cc;
+    box-shadow: 7px 4px 7px #082b38cc;
+    background-color: #0e1119;
+}
+body{
+    font-size: 1em;
+    font-family: 'PT Serif', serif;
+    background-color: #070b17;
+}
+/* rulez */
+
+/* nav */
+.bg-dark {
+    background-color: #070b17!important;
+    padding: 20px;
+    font-size: 1.4em;
+}
+.navbar-brand{
+    font-size: 1.3em;
+    padding-right: 25px;
+    font-weight: bold !important;
+}
+.navbar-brand::first-letter{
+    color: #188c91 !important;
+}
+nav ul li {
+    padding-right: 15px;
+    font-weight: 400 !important;
+}
+nav ul .active>.nav-link{
+    color: #188c91 !important;
+}
+nav ul .nav-link:hover{
+    color: #188c91 !important;
+}
+/* nav */
+
+/* header */
+header{
+    background-image: url(../images/overview-img.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    color: #fff;
+}
+header .hello{
+    margin: 200px 0 25px;
+    padding: 10px;
+    background-color: #188c91;
+    width: 100px;
+    border-radius: 20px 20px 15px 1px;
+    
+}
+header h1{
+    font-size: 3em;
+    font-weight:  bold;
+}
+header h2{
+    font-weight: bold;
+    font-size: 2em;
+}
+header .arrive{
+    margin-top: 25px;
+}
+header .arrive span{
+    margin-top: 20px;
+    display: block;
+}
+header .arrive span a{
+    color: #fff;
+    font-size: 1.2em;
+    padding-right: 5px;
+}
+header .arrive span a{
+    padding-right: 20px;
+}
+header .arrive span a:hover{
+    color: #188c91;
+}
+header .img-thumbnail{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin: 200px 30px;
+    float: right !important;
+    background-color: transparent !important;
+    border: 1px solid #188c91;
+}
+header .img-thumbnail:hover{
+    -webkit-transition: all .9s ease-in-out;
+    -moz-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+}
+/* header */
+
+/* about  */
+.about{
+    padding: 25px;
+    color: #fff;
+}
+.about .img-thumbnail{
+    background-color: transparent !important;
+    border: none !important;
+    margin-right: 20px;
+}
+.about .cap-about h2{
+    margin-top: 35px;
+    font-weight: bold;
+}
+.about .cap-about p{
+    margin-top: 15px;
+}
+.about .cap-about .good_at{
+    margin-top: 50px;
+}
+.about .cap-about .good_at span{
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px !important;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #188c91;
+}
+.about .cap-about .good_at span:hover{
+    color: #188c91;
+    transition: all .5s ease-in-out;
+    padding: 12px;
+    background-color: #fff;
+}
+.about .what_i_can{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about .what_i_can h2{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-weight: bold;
+}
+.about .what_i_can .boxi{
+    margin-bottom: 35px;
+}
+.about .what_i_can .boxi:hover{
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+    -webkit-transform: scale(1.07,1.07);
+    -moz-transform: scale(1.07,1.07);
+    transform: scale(1.07,1.07);
+}
+.about .what_i_can .boxi h3{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #188c91;
+}
+.about .what_i_can .boxi p{
+    font-size: 1em;
+}
+/* about  */
+
+/* eduction  */
+.eduction{
+    background-image: url(../images/eduction.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+.eduction h2{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.eduction .boxi{
+    width: 90%;
+    height: 225px;
+    margin: 15px auto;
+}
+.eduction .depart{
+    font-weight: bold;
+}
+.eduction .unive-name{
+    font-style: italic;
+    font-weight: bold;
+    color: #188c91;
+}
+.eduction .year{
+    color: #188c91;
+    font-style: italic;
+    font-weight: bold;
+}
+.eduction p ,
+.eduction ul{
+    margin-top: 25px;
+}
+/* eduction  */
+
+/* skils  */
+.skils{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.skils h2{
+    margin-top: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.skils .prof .cor{
+    align-items: center;
+}
+.skils .prof ol{
+    margin: 75px 0px auto;
+  }
+
+  .skils .prof ol li{
+      padding-bottom: 10px;
+      color: #188c91;
+      font-weight: 400;
+      font-size: 1.5em;
+  }
+.skils .bar-graph {
+    list-style: none;
+    margin: 50px 0px auto;
+    padding-bottom: 10px;
+}
+.skils .bar-wrap {
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(0, 155, 202, 0.2);
+    border: 1px solid rgba(0, 155, 202, 0.8);
+    margin-bottom: 10px;
+}
+.skils .bar-fill {
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-animation: bar-fill 3s;
+    -webkit-animation: bar-fill 7s;
+    -ms-animation: bar-fill 7s;
+    animation: bar-fill 7s;
+    background-color: #188c91;
+    display: block;
+    height: 5px;
+    width: 0px;
+}
+.skils .t-skills {
+    color: #188c91;
+    font-family: 'Helvetica';
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+@keyframes bar-fill {
+    0% {
+        width: 0;
+    }
+}
+@-webkit-keyframes bar-fill {
+    0% {
+        width: 0;
+    }
+}
+@-moz-keyframes bar-fill {
+    0% {
+        width: 0;
+    }
+}
+@-o-keyframes bar-fill {
+    0% {
+        width: 0;
+    }
+}
+/* skils  */
+
+/* intrested  */
+.intrested{
+    background-image: url(../images/work-with-me.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+.intrested h2{
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.intrested p{
+    font-size: 1em;
+    margin-bottom: 25px;
+}
+.intrested button{
+    margin-bottom: 75px;
+    background-color: #188c91 !important;
+    margin-right: 5px;
+}
+/* intrested  */
+
+
+/* protofolio */
+.protofolio{
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+.protofolio h2{
+    padding-top: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+} 
+.protofolio .content {
+    position: relative;
+    width: 95%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+.protofolio .content .content-overlay {
+    background: rgba(8, 7, 15, 0.9);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+.protofolio .content:hover .content-overlay{
+    opacity: 1;
+  }
+.protofolio .content-image{
+    width: 100%;
+  }
+.protofolio  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+.protofolio .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+.protofolio  .content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+.protofolio .content-details p{
+    color: #fff;
+    font-size: 0.8em;
+  }
+.fadeIn-bottom{
+    top: 80%;
+  }
+/* protofolio */
+
+/* testimnials */
+.testimonial{
+    background-image: url(../images/client_review.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-origin: cover;
+    color: #fff;
+}
+.testimonial h2{
+    padding-top: 60px;
+    font-weight: bold;
+    color:#fff;
+    margin-bottom: 50px;
+}
+.testimonial .boxi{
+    margin-bottom: 75px;
+}
+.testimonial .img-thumbnail{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: transparent !important;
+    border: none;
+}
+.testimonial .img-thumbnail:hover{
+    -webkit-transition: all .9s ease-in-out;
+    -moz-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+}
+.testimonial .boxi  h3{
+    margin-top: 50px;
+    font-weight: bold;
+}
+.testimonial .boxi .his_work{
+    font-style: italic;
+}
+.testimonial .boxi p{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.carousel-indicators li{
+    background-color: #188c91 !important;
+}
+/* testimnials */
+
+/* hire-me */
+.hire-me{
+      padding-bottom: 75px;
+      color: #fff;
+  }
+  .hire-me h2{
+      padding-top: 50px;
+      margin-bottom: 50px;
+    font-weight: bold;
+  }
+  .hire-me a{
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+  /* hire-me  */
+
+
+/* contact */
+.contact{
+    background-image: url(../images/World-map-black.png);
+    background-position: top center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-origin: cover;
+    color: #fff;
+}
+.contact h2{
+    padding-top: 60px;
+    font-weight: bold;
+    color:#fff;
+    margin-bottom: 50px;
+}
+.contact .boxi{
+    margin-bottom: 25px;
+}
+.contact .boxi h4{
+    margin-top: 15px;
+    font-weight: bold;
+}
+.contact .border{
+    margin-top: 10px;
+    border: 1px solid #188c91 !important;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 30px;
+}
+.contact .border:hover{
+    background-color: #fff !important;
+    color: #188c91 !important;
+
+}
+.contact input{
+    height: 60px;
+    background: transparent;
+}
+textarea{
+    background: transparent !important;
+}
+/* contact */
+
+/* arrow-btn */
+
+.arrow-btn .arr{
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    color: #188c91;
+    display: block;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+/* arrow */
+
+/* footer */
+footer{
+    color: #fff;
+    padding: 35px;
+    text-align: center;
+    text-transform: capitalize;
+}
+/* footer */
+
+/* login */
+
+.admin{
+    color: #188c91;
+    font-weight: bold;
+    margin-top: 75px;
+}
+.login .cont{
+    margin: 50px auto;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px 3px #188c91;
+    -moz-box-shadow: 2px 2px 3px #188c91;
+    box-shadow: 2px 2px 3px #188c91;
+}
+.login .cont h3{
+    color: #070b17;
+    margin: 25px auto;
+    text-transform: capitalize;
+}
+.login .cont label {
+    color: #070b17;
+    margin-top: 10px;
+}
+.login .cont input{
+    margin-bottom: 10px;
+}
+
+/* 404 page not-found  */
+.not-found{
+    margin: 10px auto;
+    color: #fff;
+}
+.not-found h1{
+    color: #188c91;
+    margin-top: 125px;
+    font-size: 7.5em;
+}
+.not-found h3{
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.not-found p {
+    margin-bottom: 150px;
+    margin-left: 5px;
+}
+/* 404 page not-found  */
+
+/* modal  */
+.modal .modal-content{
+    background-color: #070b17;
+    color: #fff;
+}
+.modal .close{
+    color: #fff;
+}
+.modal .close:hover{
+    color: #dc3545;
+}
+.modal .modal-title{
+    color: #188c91;
+    font-weight: 400;
+}
+.modal .modal-body{
+    padding: 10px;
+}
+.modal .img-thumbnail{
+    background-color: transparent !important;
+    border: none;
+}
+.modal p::first-letter{
+    text-transform: capitalize;
+    color: #188c91;
+}
+
+/* media query */
+
+@media only screen and (max-width : 435px){
+
+
+    /* rulez */
+    body{
+        font-size: 0.7em;
+    }
+    h2{
+        font-size: 1.6em;
+    }
+    /* rulez */
+
+    /* header */
+    header{
+        height: 500px;
+    }
+    header .img-thumbnail{
+        height: 120px;
+        width: 120px;
+        margin: 20px auto;
+        position: relative;
+        top: -130px;
+    }
+    header .hello{
+        width: 75px;
+    }
+    header .hello{
+        margin: 150px 0 25px;
+    }
+    header h1{
+        font-size: 2.1em;
+    }
+    header h2{
+        font-size: 1.3em;
+    }
+    /* header */
+
+    /* about */
+    .about{
+        text-align: center;
+    }
+    .about .cap-about p{
+        margin-top: 15px;
+        font-size: 1em;
+    }
+    .about .cap-about .good_at span{
+        padding: 5px;
+        margin-right: 5px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }
+    .about .cap-about .good_at span:hover{
+        transition: all .5s ease-in-out;
+        padding: 8px;
+    }
+    .about .what_i_can .boxi h3{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 1.4em;
+    }
+    .eduction .boxi {
+    height: 175px;
+       }
+    /* about */
+
+     /* testimonial */
+    .testimonial{
+        text-align: center;
+    }
+    .testimonial .boxi{
+        padding: 5px;
+    }
+    .testimonial .boxi p{
+        padding: 10px 45px;
+    }
+    /* testimonial */
+
+    /* intrested */
+    .intrested button{
+        margin-bottom: 15px;
+    }
+    /* intrested */
+
+     /* protofolio */
+    .protofolio  .content-details h3{
+        font-size: 1.3em;
+      }
+      /* protofolio */
+
+    /* hire-me */
+    .hire-me{
+        text-align: center;
+    }
+    /* hire-me */
+
+    /* contact */
+    .contact .boxi{
+        text-align: center
+    }
+    .contact .boxi .border{
+        margin: auto;
+    }
+    /* contact */
+}
+
+ /*      
+ ========= media guery =========
+ */
+@media only screen and ( min-width : 436px ) and (max-width : 580px){
+
+
+    /* rulez */
+    body{
+        font-size: 0.8em;
+    }
+    /* rulez */
+
+    /* header */
+    header{
+        height: 600px;
+    }
+    header .img-thumbnail{
+        height: 220px;
+        width: 220px;
+        margin: 20px auto;
+        position: relative;
+        top: -200px;
+    }
+    
+    header .hello{
+        margin: 150px 0 25px;
+    }
+    header h1{
+        font-size: 2.1em;
+    }
+    header h2{
+        font-size: 1.3em;
+    }
+    header .arrive span a{
+        font-size: 1em;
+    }
+    header .arrive span a{
+        font-size: 1em;
+    }
+    /* header */
+
+    /* about */
+    .about{
+        text-align: center;
+    }
+    /* about */
+
+     /* testimonial */
+    .testimonial{
+        text-align: center;
+    }
+    .testimonial .boxi{
+        padding: 10px;
+    }
+    .testimonial .boxi p{
+        padding: 10px 45px;
+    }
+    /* testimonial */
+
+    /* hire-me */
+    .hire-me{
+        text-align: center;
+    }
+    /* hire-me */
+
+    /* contact */
+    .contact .boxi{
+        text-align: center
+    }
+    .contact .boxi .border{
+        margin: auto;
+    }
+    /* contact */
+}
+@media only screen and ( min-width : 582px ) and (max-width : 767px){
+
+
+    /* header */
+    header{
+        height: 600px;
+    }
+    header .img-thumbnail{
+        height: 260px;
+        width: 260px;
+        margin: 5px auto;
+        position: relative;
+        top: -200px;
+    }
+    
+    header .hello{
+        margin: 150px 0 25px;
+    }
+    header h1{
+        font-size: 2.6em;
+    }
+    header h2{
+        font-size: 1.8em;
+    }
+    header .arrive span a{
+        font-size: 1em;
+    }
+    header .arrive span a{
+        font-size: 1em;
+    }
+    /* header */
+
+    /* about */
+    .about{
+        text-align: center;
+    }
+
+     /* about */
+
+    .testimonial{
+        text-align: center;
+    }
+    .testimonial .boxi{
+        padding: 10px;
+    }
+    .testimonial .boxi p{
+        padding: 10px 45px;
+    }
+    .hire-me{
+        text-align: center;
+    }
+
+    .contact .boxi{
+        text-align: center;
+    }
+}
+
+/*     
+ ========= end media guery =========
+ */
+
+
+

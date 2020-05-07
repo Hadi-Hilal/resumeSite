@@ -1,0 +1,133 @@
+/* rulez */
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+.overlay{
+    background: rgba(8, 7, 15, 0.8);
+    height: 100%;
+    width: 100%;
+}
+h2{
+    color: #fff;
+}
+.activet{
+    color: #188c91;
+}
+.btn-info{
+    background-color: #188c91 !important;
+}
+
+.boxi{
+    padding: 25px;
+    border: 1px solid #188c91;
+    border-radius: 15px;
+    -webkit-box-shadow: 7px 4px 7px #082b38cc;
+    -moz-box-shadow: 7px 4px 7px #082b38cc;
+    box-shadow: 7px 4px 7px #082b38cc;
+    background-color: #0e1119;
+}
+body{
+    font-size: 1em;
+    font-family: 'PT Serif', serif;
+    background-color: #ddd;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+/* rulez */
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+/* sidebar */
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: #188c91;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #188c91;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #188c91;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #188c91;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #188c91;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #188c91;
+}
+.dashboard{
+    margin: 15px;
+    font-size: 1.8em;
+}
+/* footer */
+footer{
+    color: #fff;
+    padding: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #070b17;
+}
+/* footer */
+
+/* ------media query */
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}

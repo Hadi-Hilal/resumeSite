@@ -1,0 +1,47 @@
+/* rtl css */
+
+/* rulez */
+body{
+    background-color: #070b17 !important;
+    direction: rtl !important;
+}
+h2{
+    color: #fff !important;
+}
+/* rulez */
+
+/* content */
+.bg-dark {
+    background-color: #070b17!important;
+    padding: 20px;
+    font-size: 1.4em;
+}
+header .arrive span  {
+   display: block;
+}
+header .arrive span a {
+    padding-left: 20px;
+ 
+}
+header .img-thumbnail{
+    float: left !important;
+}
+
+.carousel-rtl {
+    direction: rtl;
+  }
+
+  @media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel.rtl .carousel-inner > .item.next,
+    .carousel.rtl .carousel-inner > .item.active.right {
+      -webkit-transform: translate3d(-100%, 0, 0);
+              transform: translate3d(-100%, 0, 0);
+    }
+    .carousel.rtl .carousel-inner > .item.prev,
+    .carousel.rtl .carousel-inner > .item.active.left {
+      -webkit-transform: translate3d(100%, 0, 0);
+              transform: translate3d(100%, 0, 0);
+    }
+  }
+  
+
